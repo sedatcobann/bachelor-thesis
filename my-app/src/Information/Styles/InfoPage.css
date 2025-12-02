@@ -1,0 +1,88 @@
+.informationPageDiv1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+  }
+  
+  .informationPageDiv2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    min-height: 260px;
+    margin: 30px 0px 30px 0px;
+    background-color: white;
+    border: 1px solid #556c9c;
+    border-radius: 80px;
+    padding: 20px 30px 20px 30px;
+  }
+  
+  .informationPageLayout {
+    position:absolute;
+    left:30%;
+    width: 40%;
+    height:100px;
+    margin-top: 10%;
+  }
+
+
+  
+.upload__image-wrapper {
+  margin-top:10%;
+  position:fixed;
+  right:0px;
+  width:27%;
+  height: 27%;
+}
+
+.leftPhotos{
+  position: fixed;
+  left: 20;
+  width:27%;
+  height: 27%;
+  margin-top:10%;
+}
+
+.image-item{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin-bottom: 10%;
+}
+
+.photo {
+  position:absolute;
+  right:10%;
+  width:95%;
+  height: 100%;
+  margin-top:10%;
+
+
+}
+
+.photoLeft {
+  position:absolute;
+  left:10%;
+  width:95%;
+  height: 100%;
+  margin-top:10%;
+
+}
+
+.image-item__btn-wrapper{
+  margin-top: 13%;
+  margin-bottom:13%;
+
+}
+
+.updateImage{
+  margin-right:5%;
+}
+
+.alignContact {
+  text-align: center;
+}

@@ -1,0 +1,38 @@
+.headerWholePage {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: max-content auto;
+  grid-gap: 20px;
+  background-color: white;
+  
+}
+
+.header,
+.header:visited,
+.header:active,
+.header:hover {
+  position: fixed;
+  background-color: #3E3FA5;
+  height: 150px;
+  width: 100%;
+  border-bottom: 1px solid black;
+  max-height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 30px;
+  color: #000;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  z-index: 10;
+
+}
+
+
+.FontSizeLayout button{
+  position: relative;
+  display: inline-block;;
+  flex-direction: row;
+}
